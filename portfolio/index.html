@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Rabeh</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/font.css" />
     <script src="./tailwind.config.js"></script>
     <link rel="shortcut icon" href="./images/logo1.jpeg" type="image/x-icon" />
     <style>
@@ -15,7 +16,7 @@
     </style>
   </head>
 
-  <body class="overflow-x-hidden" id="Top">
+  <body class="overflow-x-hidden leading-7" id="Top">
     <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
       <img src="./images/header-bg-color.png" alt="" class="w-full" />
     </div>
@@ -38,7 +39,7 @@
       </ul>
 
       <div class="flex items-center gap-4">
-        <button><img src="./images/moon_icon.png" class="w-6" alt="" /></button>
+        <!-- <button><img src="./images/moon_icon.png" class="w-6" alt="" /></button> -->
         <a
           href="#Contact"
           class="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4"
@@ -134,7 +135,7 @@
             am motivated to join an innovative team to contribute to impactful
             projects
           </p>
-          <ul class="grid gap-6 grid-cols-auto sm:grid-cols-2">
+          <ul class="grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-auto">
             <li
               class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fbf7fd] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px__0_#000]"
             >
@@ -157,7 +158,7 @@
               <p class="text-sm text-gray-500">5+ Completed Projects</p>
             </li>
           </ul>
-          <h4 class="my-6 text-gray-700">Tools I use</h4>
+          <h4 class="my-6 text-gray-700">Some of my skills</h4>
           <ul class="flex items-center gap-3 sm:gap-5">
             <li
               class="flex items-center justify-center w-12 gap-3 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
@@ -169,36 +170,19 @@
             >
               <img src="./images/figma.png" alt="" class="w-5 sm:w-7" />
             </li>
-            <li
-              class="flex items-center justify-center w-12 gap-3 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
-            >
-              <img src="./images/git.png" alt="" class="w-5 sm:w-7" />
-            </li>
+
             <li
               class="flex items-center justify-center w-12 gap-3 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
             >
               <img src="./images/mysql.png" alt="" class="w-5 sm:w-7" />
             </li>
-            <li
-              class="flex items-center justify-center w-12 gap-3 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
-            >
-              <img src="./images/php.png" alt="" class="w-5 sm:w-7" />
-            </li>
+
             <li
               class="flex items-center justify-center w-12 gap-3 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
             >
               <img src="./images/react.png" alt="" class="w-5 sm:w-7" />
             </li>
-            <li
-              class="flex items-center justify-center w-12 gap-3 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
-            >
-              <img src="./images/js.png" alt="" class="w-5 sm:w-7" />
-            </li>
-            <li
-              class="flex items-center justify-center w-12 gap-3 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
-            >
-              <img src="./images/bootstrap.png" alt="" class="w-5 sm:w-7" />
-            </li>
+
             <li
               class="flex items-center justify-center w-12 gap-3 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
             >
@@ -299,7 +283,9 @@
             <div
               class="flex items-center justify-center w-9 border border-black rounded-full aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src="./images/send-icon.png" alt="" class="w-5" />
+              <a href="https://github.com/abderrahmaneRabeh/gemini-clone"
+                ><img src="./images/send-icon.png" alt="" class="w-5"
+              /></a>
             </div>
           </div>
         </div>
@@ -316,7 +302,9 @@
             <div
               class="flex items-center justify-center w-9 border border-black rounded-full aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src="./images/send-icon.png" alt="" class="w-5" />
+              <a href="https://github.com/abderrahmaneRabeh/job_portal"
+                ><img src="./images/send-icon.png" alt="" class="w-5"
+              /></a>
             </div>
           </div>
         </div>
@@ -333,7 +321,10 @@
             <div
               class="flex items-center justify-center w-9 border border-black rounded-full aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src="./images/send-icon.png" alt="" class="w-5" />
+              <a
+                href="https://github.com/abderrahmaneRabeh/CodeAlpha_Food_Store"
+                ><img src="./images/send-icon.png" alt="" class="w-5"
+              /></a>
             </div>
           </div>
         </div>
@@ -350,7 +341,9 @@
             <div
               class="flex items-center justify-center w-9 border border-black rounded-full aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src="./images/send-icon.png" alt="" class="w-5" />
+              <a href="https://github.com/abderrahmaneRabeh/CodeAlpha_SM_task"
+                ><img src="./images/send-icon.png" alt="" class="w-5"
+              /></a>
             </div>
           </div>
         </div>
@@ -367,7 +360,10 @@
             <div
               class="flex items-center justify-center w-9 border border-black rounded-full aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src="./images/send-icon.png" alt="" class="w-5" />
+              <a
+                href="https://github.com/abderrahmaneRabeh/CodeAlpha_Video_Conference"
+                ><img src="./images/send-icon.png" alt="" class="w-5"
+              /></a>
             </div>
           </div>
         </div>
@@ -384,7 +380,9 @@
             <div
               class="flex items-center justify-center w-9 border border-black rounded-full aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src="./images/send-icon.png" alt="" class="w-5" />
+              <a href="https://github.com/abderrahmaneRabeh/weather-app"
+                ><img src="./images/send-icon.png" alt="" class="w-5"
+              /></a>
             </div>
           </div>
         </div>
@@ -401,7 +399,9 @@
             <div
               class="flex items-center justify-center w-9 border border-black rounded-full aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src="./images/send-icon.png" alt="" class="w-5" />
+              <a href="https://github.com/abderrahmaneRabeh/quoat-generate"
+                ><img src="./images/send-icon.png" alt="" class="w-5"
+              /></a>
             </div>
           </div>
         </div>
@@ -418,7 +418,9 @@
             <div
               class="flex items-center justify-center w-9 border border-black rounded-full aspect-square shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
-              <img src="./images/send-icon.png" alt="" class="w-5" />
+              <a href="https://github.com/abderrahmaneRabeh/Command-Line-App"
+                ><img src="./images/send-icon.png" alt="" class="w-5"
+              /></a>
             </div>
           </div>
         </div>
@@ -444,17 +446,30 @@
         I'm always open for discussing project, so feel free to message me.
       </p>
 
-      <form action="" class="max-w-2xl mx-auto">
-        <div class="grid grid-cols-2 gap-6 mt-10 mb-8">
+      <form
+        action="https://api.web3forms.com/submit"
+        class="max-w-2xl mx-auto"
+        method="post"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="bd5e1478-2d63-40d7-970b-a928551b717b"
+        />
+        <div class="grid gap-6 mt-10 mb-8 grid-cols-auto">
           <input
             type="text"
             placeholder="Enter your Name"
             class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            required
+            name="name"
           />
           <input
             type="email"
             placeholder="Enter your Email"
             class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            required
+            name="email"
           />
         </div>
 
@@ -462,9 +477,12 @@
           rows="6"
           placeholder="Enter your message"
           class="w-full p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+          required
+          name="message"
         ></textarea>
 
         <button
+          type="submit"
           class="flex items-center gap-2 px-10 py-3 mx-auto mt-8 text-white border border-gray-500 rounded-full w-max bg-gradient-to-r from-gray-800 to-purple-500"
         >
           Send Message
@@ -490,11 +508,15 @@
       <div
         class="items-center justify-between text-center border-t border-gray-400 sm:flex mx-[10%] mt-12 py-6"
       >
-        <p>@2024 Abderrahmane Rabeh, All Rights Reserved</p>
+        <p>&copy; 2024 Abderrahmane Rabeh, All Rights Reserved</p>
         <ul class="flex items-center gap-6 mt-4 sm:mt-0">
-          <li><a href="#">Linkedin</a></li>
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Instagram</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/abderrahmane-rabeh-7122b0266/"
+              >Linkedin</a
+            >
+          </li>
+          <li><a href="https://github.com/abderrahmaneRabeh">GitHub</a></li>
+          <li><a href="https://www.instagram.com/rabeh__03/">Instagram</a></li>
         </ul>
       </div>
     </footer>
