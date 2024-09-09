@@ -27,7 +27,7 @@ A basic calculator built using **HTML**, **CSS**, and **JavaScript**. The calcul
 - Interactive buttons and a responsive design
 - A clear display for user inputs and results
 
-### Quiz Game
+### 4. Quiz Game
 I developed an **Online Quiz Maker** using **HTML**, **CSS**, and **JavaScript**. The project includes the following features:
 - **Quiz Creation**: Users can create quizzes by adding questions, multiple-choice answers, and correct answers.
 - **Quiz Taking**: Users can take quizzes and receive immediate feedback on their scores.
